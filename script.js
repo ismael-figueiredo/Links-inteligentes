@@ -6,7 +6,7 @@ function tooglemode(){
     if(html.classList.contains('light')){
         img.setAttribute('src', './assets/avatar-light.jpg')
     }else{
-        img.setAttribute('src', './assets/avatar2.jpg')
+        img.setAttribute('src', './assets/avatar-light.jpg')
        
     }
     
