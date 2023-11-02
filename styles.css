@@ -32,17 +32,20 @@ body {
   */
   /*forma simplificada */
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 
 
 body * {
   font-family: "Inter", sans-serif;
   color:var(--text-color);
+
 }
 
 #container {
   margin: 56px auto 0px;
-  width: 360px;
+  width:100%;
+  max-width: 588px;
   padding: 0 24px;
 }
 #profile {
@@ -71,13 +74,17 @@ background:white var(--switch-bg-url) no-repeat center;
 width: 32px;
 height: 32px;
 top: 50%;
-right: 0;
+left: 0;
 border-radius: 50%;
 border: 0;
 position: absolute;
 z-index: 1;
 transform: translateY(-50%);
+animation: slide-of 0.4s;
 
+}
+#switch button:hover{
+  outline: 8px solid var(--hightlight-color);
 }
 
 #switch span{
@@ -92,8 +99,7 @@ transform: translateY(-50%);
   
 }
 .light #switch button{
-  right: initial;
-  left: 0;
+  animation: slide-in 0.4s forwards;
 }
 
 ul {
@@ -145,4 +151,30 @@ footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
+}
+@media (min-width: 700px) {
+ :root {
+  --bg-url: url(./assets/bg-desktop.jpg);
+}
+.light {
+  --bg-url: url(./assets/bg-desktop-light.jpg);
+} 
+}
+
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to{
+    left: 50%;
+  }
+}
+
+@keyframes slide-of {
+  from {
+    left: 50%;
+  }
+  to{
+    left: 0;
+  }
 }
