@@ -1,7 +1,7 @@
-<h1 align="center"> ArtfiosCrochet </h1>
+<h1 align="center"> Links inteligentes </h1>
 
 <p align="center">
-Projeto criado pela Rocketseat e desenvolvido por mim. <br/>
+Desafio proposto pela Rocketseat e desenvolvido por mim. <br/>
 <a href="https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito">Estude esse projeto em formato de vídeo clicando aqui.</a>
 </p>
 
@@ -48,4 +48,4 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-Feito com ♥ by https://ismaelfigueiredo.com
+Feito com ♥ by [Ismael Figueiredo](https://ismaelfigueiredo.com)
