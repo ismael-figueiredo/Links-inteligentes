@@ -35,7 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Este projeto é um agregador de links para usar como cartão de visitas online.
 
-- [Acesse o projeto finalizado, online](https://ismael-figueiredo.github.io/artfioscrochet/)
+- [Acesse o projeto finalizado, online](https://ismael-figueiredo.github.io/Links-inteligentes/)
 
 
 ## 🔖 Layout
